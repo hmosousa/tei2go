@@ -1,6 +1,7 @@
 # Temporal Expression Identification to Go
 
 [![Paper](https://img.shields.io/badge/Paper-557C55)](https://dl.acm.org/doi/10.1145/3583780.3615130)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 
 [![HuggingFace German](https://img.shields.io/badge/-German-informational)](https://huggingface.co/hugosousa/de_tei2go)
 [![HuggingFace English](https://img.shields.io/badge/-English-informational)](https://huggingface.co/hugosousa/en_tei2go)
@@ -8,8 +9,6 @@
 [![HuggingFace Italian](https://img.shields.io/badge/-Italian-informational)](https://huggingface.co/hugosousa/it_tei2go)
 [![HuggingFace French](https://img.shields.io/badge/-French-informational)](https://huggingface.co/hugosousa/fr_tei2go)
 [![HuggingFace Portuguese](https://img.shields.io/badge/-Portuguese-informational)](https://huggingface.co/hugosousa/pt_tei2go)
-
-[![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 
 Temporal Expression Identification to Go (TEI2GO) is an approach for fast and effective identification of temporal
 expressions.
