@@ -1,5 +1,7 @@
 # Temporal Expression Identification to Go
 
+[![Paper](https://img.shields.io/badge/Paper-557C55)](https://dl.acm.org/doi/10.1145/3583780.3615130)
+
 [![HuggingFace German](https://img.shields.io/badge/-German-informational)](https://huggingface.co/hugosousa/de_tei2go)
 [![HuggingFace English](https://img.shields.io/badge/-English-informational)](https://huggingface.co/hugosousa/en_tei2go)
 [![HuggingFace Spanish](https://img.shields.io/badge/-Spanish-informational)](https://huggingface.co/hugosousa/es_tei2go)
@@ -86,3 +88,25 @@ This framework is part of the [Text2Story](https://text2story.inesctec.pt/) proj
 European Regional Development Fund through the North Portugal Regional Operational Programme (NORTE 2020), under the
 PORTUGAL 2020 and by National Funds through the Portuguese funding agency, FCT - Fundação para a Ciência e a Tecnologia
 within project PTDC/CCI-COM/31857/2017 (NORTE-01-0145-FEDER-03185)
+
+## Cite
+
+If you use this work, please cite the following [paper](https://dl.acm.org/doi/10.1145/3583780.3615130):
+
+```bibtex
+@inproceedings{10.1145/3583780.3615130,
+    author = {Sousa, Hugo and Campos, Ricardo and Jorge, Al\'{\i}pio},
+    title = {TEI2GO: A Multilingual Approach for Fast Temporal Expression Identification},
+    year = {2023},
+    isbn = {9798400701245},
+    publisher = {Association for Computing Machinery},
+    url = {https://doi.org/10.1145/3583780.3615130},
+    doi = {10.1145/3583780.3615130},
+    booktitle = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+    pages = {5401–5406},
+    numpages = {6},
+    keywords = {temporal expression identification, multilingual corpus, weak label},
+    location = {Birmingham, United Kingdom},
+    series = {CIKM '23}
+}
+```
