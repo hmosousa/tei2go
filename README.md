@@ -40,6 +40,10 @@ Then the model can be loaded in two ways:
 ```python
 import spacy
 nlp = spacy.load("fr_tei2go")
+
+doc = nlp("Bonjour, aujourd'hui nous sommes le 17 décembre 2024.")
+for ent in doc.ents:
+    print(ent.text, ent.label_)
 ```
 
 2. Importing as a module
@@ -47,6 +51,10 @@ nlp = spacy.load("fr_tei2go")
 ``` python
 import fr_tei2go
 nlp = fr_tei2go.load()
+
+doc = nlp("Bonjour, aujourd'hui nous sommes le 17 décembre 2024.")
+for ent in doc.ents:
+    print(ent.text, ent.label_)
 ```
 
 ## Development environment
